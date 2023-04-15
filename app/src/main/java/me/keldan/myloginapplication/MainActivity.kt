@@ -82,10 +82,9 @@ fun LoginScreen() {
         // Display the login button.
         Button(
             onClick = {
-                // Implement your login logic here.
+                // Implement login logic here.
                 val email = emailState.value
                 val password = passwordState.value
-                // ...
             },
             modifier = Modifier.fillMaxWidth()
         ) {
